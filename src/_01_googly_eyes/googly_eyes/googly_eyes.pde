@@ -1,10 +1,11 @@
 PImage face;
 void setup() {
-  face=loadImage("dog.jpg");
-  size(800,600);
-  face.resize(800,600);
+  face=loadImage("dog.jpeg");
+size(2000,1000);
+face.resize(2000,1000);
+
 }
 
 void draw() {
-  
+  background(face);
 }
